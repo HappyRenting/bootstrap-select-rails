@@ -5,6 +5,13 @@ require 'bootstrap-select-rails/version'
 Gem::Specification.new do |spec|
   spec.name        = 'bootstrap-select-rails'
   spec.version     = BootstrapSelect::Rails::VERSION
+  spec.licenses    = ['MIT']
+  spec.authors     = ['HappyRenting']
+  spec.email       = ['contact@happyrenting.com']
+
+  spec.summary     = 'none'
+  spec.description = 'none'
+  spec.homepage    = 'https://github.com/HappyRenting/bootstrap-select-rails'
 
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
     `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

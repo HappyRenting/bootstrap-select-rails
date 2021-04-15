@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ajax-bootstrap-select-rails (1.0.0)
+    bootstrap-select-rails (1.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -11,7 +11,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  ajax-bootstrap-select-rails!
+  bootstrap-select-rails!
   bundler (~> 2.0)
 
 BUNDLED WITH
